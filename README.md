@@ -11,6 +11,8 @@ cqlsh </br>
 
 CREATE KEYSPACE user WITH replication  = {'class': 'SimpleStrategy','replication_factor': 1}; </br>
 
+USE user; </br>
+
 CREATE TABLE user( </br>
    id uuid PRIMARY KEY, </br>
    firstName text, </br>
